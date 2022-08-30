@@ -1,0 +1,124 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    background-color: cyan;
+    min-height: 70px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 75px;
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+nav a {
+    font-weight: 600;
+    padding: 8px;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+    border: 5px double;
+}
+
+@media (max-width:700px){
+    header{
+         flex-direction: column;
+         }
+
+         nav{
+             padding: 15px 0px;
+         }
+}
+
+.listaDeAutos {
+    background-image: url(https://www.comparaonline.cl/blog-statics/cl/uploads/2014/07/Viaje_por_carretera__como_preparar_el_vehC3ADculo_u0ieea.jpg);
+}
+
+.titulo {
+    margin-top: 0%;
+    text-align: center;
+    font-size: 50px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid;
+}
+.autos img {
+    border-radius: 10%;
+    border: 2px solid;
+    display: flexbox;
+    padding: 3px;
+    margin: 47px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 25vw;
+    height: 30vh;
+}
+
+.autos img:hover {
+    border: 3px solid;
+    transition: 0.3s;
+}
+
+.sobreNosotros {
+    margin-top: 0%;
+    background-color: cyan;
+}
+
+.sobreNosotros__titulo {
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 30px;
+    padding: 5px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border: 3px solid;
+}
+
+.sobreNosotros p {
+    font-size: 3em;
+    margin-bottom: 0%;
+    margin-top: 0%;
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: beige;
+}
+
+.contacto {
+    background-color: aqua;
+    text-align: center;
+    margin-top: 0%;
+}
+
+.contacto__titulo {
+    border: 3px solid;
+    margin-top: 0%;
+}
+.insta {
+    border: 3px solid;
+    border-radius: 20%;
+    background-color: rgb(218, 88, 88);
+    font-size: 2em;
+}
+
+.contacto p {
+    font-size: 20px;
+}
